@@ -1,0 +1,297 @@
+
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{
+	.item:first-child
+	{
+		background:url('../images/slider-images/slide-image1-md.jpg') no-repeat;	
+	}
+
+	.item:nth-child(2)
+	{
+		background:url('../images/slider-images/slide-image2-md.jpg') no-repeat;
+	}
+
+	.item:last-child
+	{
+		background:url('../images/slider-images/slide-image4-md.jpg') no-repeat;	
+	}
+}
+
+
+@media screen and (min-width:768px) and (max-width: 991px)
+{
+	.item:first-child
+	{
+		background:url('../images/slider-images/slide-image1-sm.jpg') no-repeat;	
+	}
+
+	.item:nth-child(2)
+	{
+		background:url('../images/slider-images/slide-image2-sm.jpg') no-repeat;
+	}
+
+	.item:last-child
+	{
+		background:url('../images/slider-images/slide-image4-sm.jpg') no-repeat;	
+	}
+
+	.carousel-content h1
+	{
+		font-size: 3.3rem;
+	}
+
+	.nav-custom li a
+	{
+		padding:15px 10px;	
+	}
+	section
+	{
+		padding:60px 0;
+	}
+	.section-title
+	{
+		margin-bottom: 35px;
+	}
+	.achievements,.services-offered,.portfolio-items,.price-tables,.team-members
+	{
+		padding-top:35px;
+	}
+	.table-details h4
+	{
+		font-size: 1rem;
+	}
+	.table-details span
+	{
+		font-size: 1.8rem;
+	}
+	.member-details
+	{
+		margin-bottom: 15px;
+	}
+	#footer
+	{
+		padding:25px 0 5px 0;
+	}
+	#footer .social-icons
+	{
+		padding:10px 0;
+	}
+}
+
+
+
+
+@media screen and (max-width: 767px)
+{
+	.item:first-child
+	{
+		background:url('../images/slider-images/slide-image1-xs.jpg') no-repeat;	
+	}
+
+	.item:nth-child(2)
+	{
+		background:url('../images/slider-images/slide-image2-xs.jpg') no-repeat;
+	}
+
+	.item:last-child
+	{
+		background:url('../images/slider-images/slide-image4-xs.jpg') no-repeat;	
+	}
+
+	.carousel-content h1
+	{
+		font-size: 2.5rem;
+		padding:0 20px;
+	}
+	.carousel-content p
+	{
+		font-size: 1.1rem;
+		padding:0 45px;
+		margin-bottom: 30px;
+	}
+	.btn-custom
+	{
+		padding:10px 30px;
+		font-size: .9rem;
+	}
+	.controller-left,.controller-right
+	{
+		width:30px; 
+		height:30px;
+		line-height: 25px;
+		font-size: 20px;
+	}
+	#slider:hover .controller-left
+	{
+		left:10px;
+	}
+	#slider:hover .controller-right
+	{
+		right:10px;
+	}
+	#toabout .fa-angle-down
+	{
+		bottom: 20px;
+	}
+	.nav-custom li a
+	{
+		padding:12px 0px 12px 0px;	
+		margin-left: 30px;
+		display: inline-block;	
+	}
+
+	.navbar-toggle
+	{
+		border:1px solid #00AFF0;
+		padding:7px 12px;
+		margin-top: 5px;
+		font-size: 1.3rem;
+		color:#00AFF0;
+	}
+
+	.navbar-collapse
+	{
+		border-color: #00AFF0;
+	}
+
+	section
+	{
+		padding:40px 0;
+	}
+	.section-title
+	{
+		margin-bottom: 20px;
+	}
+
+	.section-title h2
+	{
+		font-size: 1.7rem;	
+		margin-bottom: 25px;
+	}
+
+	.achievements,.services-offered,.portfolio-items,.price-tables,.team-members
+	{
+		padding-top:20px;
+	}
+
+	#services p,.section-title p
+	{
+		padding:0 30px;
+	}
+	#services .col-sm-4
+	{
+		padding-top:20px;
+		border:0;
+	}
+	.service-icon
+	{	
+		width:70px;
+		height:70px;		
+	}
+	.service-icon i
+	{
+		font-size: 2rem;
+		line-height:70px;
+	}
+	.service-info
+	{
+		padding-bottom: 25px;
+	}
+	.service-info h3
+	{
+		margin:15px 0;
+	}
+
+	.about-content
+	{
+		margin-bottom: 25px;
+		padding-top: 25px;
+	}
+
+	div.achievements .col-xs-6
+	{
+		margin-bottom: 30px;
+	}
+	.achievements i
+	{
+		font-size: 3rem;
+	}
+
+	.achievements h3
+	{
+		font-size: 1.5rem;
+		margin-bottom: 10px;
+	}
+
+	.portfolio-info
+	{
+		margin-top:30px;
+	}
+
+	.portfolio-info h4
+	{
+		font-size: 1.3rem;
+		text-transform: uppercase;
+	}
+
+	.enlarge-icon i
+	{
+		font-size: 1.7rem;
+	}
+	.table-details
+	{
+		margin-bottom: 15px;
+		padding:20px 0;
+	}
+
+	.table-details h4
+	{
+		font-size: 1.1rem;
+		margin-bottom: 30px;
+	}
+	.table-details span
+	{
+		font-size: 1.7rem;
+	}
+	.table-details ul li
+	{
+		font-size: .9rem;
+		margin-bottom: 10px;
+	}
+	
+	.contact-details
+	{
+		padding-top: 30px;
+	}
+	#footer
+	{
+		padding:20px 0 5px 0;
+	}
+	#footer .social-icons 
+	{
+		padding:5px 0;
+	}
+
+}
+
+@media screen and (max-width: 490px)
+{
+	.col-xs-6
+	{
+		width: 100%;
+	}
+	.portfolio-info
+	{
+		margin-top:60px;
+	}
+
+	.portfolio-info h4
+	{
+		font-size: 1.5rem;
+	}
+
+	.enlarge-icon i
+	{
+		font-size: 2rem;
+	}
+}
