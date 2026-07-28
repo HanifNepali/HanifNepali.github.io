@@ -1,4 +1,4 @@
-# Hanif Nepali — Portfolio Website
+# Portfolio Website
 
 🔗 **Live site:** [hanifnepali.github.io](https://hanifnepali.github.io/)
 
